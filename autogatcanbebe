@@ -125,5 +125,5 @@ getgenv().Config = {
 	["Reset Teleport Get Boat"] = false,
 	["Hop Server Find Boss"] = false
 }
-getgenv().Key = "7178f47dc8353d9f8ee3ae06" 
+getgenv().Key = "8cc66a2f45663b82b73a96cc" 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
