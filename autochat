@@ -44,7 +44,7 @@ spawn(function()
                     if count >= 1 then
                         loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf2"))()
                     else
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/Manhtuan24112001/autogat/refs/heads/main/cay60kf"))()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf"))()
                     end
                 else
                     warn("Lỗi: Không thể lấy danh sách vật phẩm từ kho đồ.")
