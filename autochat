@@ -42,7 +42,7 @@ spawn(function()
 
                     -- Chạy script tương ứng dựa trên số lượng Dark Fragment
                     if count >= 1 then
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/Manhtuan24112001/autogat/refs/heads/main/cay60kf2"))()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf2"))()
                     else
                         loadstring(game:HttpGet("https://raw.githubusercontent.com/Manhtuan24112001/autogat/refs/heads/main/cay60kf"))()
                     end
