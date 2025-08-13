@@ -22,7 +22,7 @@ spawn(function()
 
             if level < 2300 then
                 -- Nếu cấp độ dưới 2300, thực thi script "cay60kfwazure"
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/Manhtuan24112001/autogat/refs/heads/main/cay60kfwazure"))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kfwazure"))()
             else
                 -- Kiểm tra số lượng Dark Fragment trong kho đồ
                 local success, inventory = pcall(function()
@@ -42,9 +42,9 @@ spawn(function()
 
                     -- Chạy script tương ứng dựa trên số lượng Dark Fragment
                     if count >= 1 then
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf2"))()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf155"))()
                     else
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf"))()
+                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf2155"))()
                     end
                 else
                     warn("Lỗi: Không thể lấy danh sách vật phẩm từ kho đồ.")
