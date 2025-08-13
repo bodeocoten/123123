@@ -16,7 +16,7 @@ getgenv().Key = "8cc66a2f45663b82b73a96cc"
                 },
             },
         },
-        ["White Screen"] = false,
+        ["White Screen"] = true,
         ["Lock Fps"] = {
             ["Enabled"] = false,
             ["FPS"] = 10,
