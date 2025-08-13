@@ -35,7 +35,7 @@ getgenv().Key = "8cc66a2f45663b82b73a96cc"
             ["Fragment"] = 50000,
         },
         ["Auto Chat"] = {
-            ["Enabled"] = true,
+            ["Enabled"] = false,
             ["Text"] = "racev4.shop chan đê",
         },
         ["Auto Summon Rip Indra"] = true, --- auto buy haki and craft haki legendary 
