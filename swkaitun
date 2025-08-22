@@ -2,7 +2,7 @@ _G.CF = {
     TreeConfig = {
         Enabled = true,
         Sender = "Al3xand3rTurbo201823", -- account that gives trees
-        TreeName = "Bone Blossom", -- part of tool name
+        TreeName = "Tree", -- part of tool name
         TargetList = {
             "Scarl3ttZ3rogl33", "KatherineCosmoScorch", "Olivia_T0xic2007", "TheRealEvan_Neon", "Th3R3alN3bulaKing",
             "HiccupMeteor13", "Wav3Moon2018", "Jos3phUtopia", "Ninja_BOUNCE59", "Mrssc0ttRipple",
