@@ -37,3 +37,4 @@ getgenv().Config = {
 	["Auto Store Fruit"] = false,
 	["Start Hunt Leviathan"] = true
 }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/BananaCat-KaitunLevi.lua"))()
