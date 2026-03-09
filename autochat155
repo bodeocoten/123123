@@ -1,55 +1,100 @@
-wait(5)
--- Chờ đến khi game và các thành phần cần thiết được tải
-repeat task.wait() until game:IsLoaded()
-repeat task.wait() until game.Players
-repeat task.wait() until game.Players.LocalPlayer
-repeat task.wait() until game.Players.LocalPlayer:FindFirstChild("PlayerGui")
-repeat task.wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("Main (minimal)")
+getgenv().ConfigV4 = {
+    ["Account Up Gear"] = {
+        "AriaMysticPrism19",
+        "XxJaxonEchoStealthxX",
+        "XxNinja_CLAWXX97",
+        "Danc3rPlayz1986",
+        "WilliamCav68507",
+        "C00kieFlameZap",
+        "XxNightNeb54969",
+        "VortexDragonThunder2",
+        "CyberPixelP0wer2005",
+        "YolandaMacdonald6",
+        "CharltteSu66791",
+        "LightCookie93",
+        "TigerDawnB10361",
+        "SkyTigerBeast2004",
+        "LegendClaw201648",
+        "NovaTurboFusionYT",
+        "XxFuryRiftMagicxX200",
+        "GoldenRocket201641",
+        "XxPaisley_DancerxX83",
+        "KayleeBane198445",
+        "KramarAnke04",
+        "Z3roZap1990",
+        "XxCookieBearDarkxX13",
+        "Her0LightW0lf2003",
+        "XxNightHeroUltraxX",
+        "YonderEllie",
+        "XxNinjaFuryxX29",
+        "MasonTopaz57559",
+        "YolandaHull3",
+        "XxNightGlitchxX20173",
+        "ZeroStormAce1990",
+        "NoahAquaSlim32002",
+        "Blast_Ph03nix1582",
+        "ynhkbl_f62549",
+        "XxMysticCooki3xX1988",
+        "Claw_Chase67",
+        "GammaHeroG53490",
+        "ProSkyVip3r2011",
+        "BetaIsland63691",
+        "Xx_G0ld3nEpicSt3alth",
+        "LeoCloudMa63447",
+        "OmegaLegen57393",
+        "FreeMystic96356",
+        "QueenWhite12052",
+        "W0LF_Blast2012",
+        "Am3liaDark43",
+        "Pixelated_Blaze98",
+        "GraceNight38",
+        "SphiaOmega92725",
+        "DanielAmbe39871",
+        "AcePandaPrimal60",
+        "HyperBaneWolfYT",
+        "HunterBrav19643",
+        "XxOliviaShad0wxX79",
+        "KnightBird57966",
+        "GlitchHawkDragonYT",
+        "PurpleLion26264",
+        "XxAidenFor18264",
+        "Blad3Byt3200757",
+        "PearlEpicP85697",
+        "XxEliBlockBuilderxX",
+        "XxLucasChasePr0xX_YT",
+        "GreenValle44843",
+        "StormZ3roVip3r",
+        "CrazeIce28",
+        "PrimalSkaterCode_YT",
+        "AlphaBlizzardPower",
+        "StarBlueSw74095",
+        "ZoomCookie13",
+        "SpiritAlph49235"
+    },
 
--- Kiểm tra và thay đổi team nếu có UI ChooseTeam
-if game.Players.LocalPlayer.PlayerGui["Main (minimal)"]:FindFirstChild("ChooseTeam") then
-    repeat task.wait()
-        game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("CommF_"):InvokeServer("SetTeam", "Pirates")
-    until game.Players.LocalPlayer.Team ~= nil and game:IsLoaded()
-end
+    ["Account Help"] = {
+        "Xx_LucasDanc3rHunt3r",
+        "DouglasReilly7",
+        "ShadowKnight202062"
+    },
 
--- Đặt tác vụ chạy liên tục để kiểm tra cấp độ và vật phẩm
-spawn(function()
-    while wait(20) do
-        pcall(function()
-            local Players = game:GetService("Players")
-            local level = Players.LocalPlayer.Data.Level.Value
+    ["Method Kick"] = {
+        ["End Moon"] = false,
+    },
 
-            if level < 2300 then
-                -- Nếu cấp độ dưới 2300, thực thi script "cay60kfwazure"
-                loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kfwazure"))()
-            else
-                -- Kiểm tra số lượng Dark Fragment trong kho đồ
-                local success, inventory = pcall(function()
-                    return game:GetService("ReplicatedStorage").Remotes["CommF_"]:InvokeServer("getInventory")
-                end)
+    ["Auto Join"] = true,
 
-                if success and inventory then
-                    local count = 0
-                    for _, v in pairs(inventory) do
-                        if v.Name == "Dark Fragment" then
-                            count = v.Quantity or v.Count or v.Amount or 0
-                            break
-                        end
-                    end
+    ["Auto Change Race"] = {
+        ["Enabled"] = false,
+        ["Race"] = {""} --- Human,Skypiea,Fishman,Mink
+    },
 
-                    print("Số lượng Dark Fragment:", count)
+    ["Webhook"] = {
+        ["url"] = "",
+        ["Done Train"] = false,
+        ["Done Trial"] = false,
+    }
+}
 
-                    -- Chạy script tương ứng dựa trên số lượng Dark Fragment
-                    if count >= 1 then
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf155"))()
-                    else
-                        loadstring(game:HttpGet("https://raw.githubusercontent.com/bodeocoten/123123/main/cay60kf2155"))()
-                    end
-                else
-                    warn("Lỗi: Không thể lấy danh sách vật phẩm từ kho đồ.")
-                end
-            end
-        end)
-    end
-end)
+getgenv().Key = "37661ebfde6d6d62fd51ada4"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/NewV4Config.lua"))()
