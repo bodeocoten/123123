@@ -332,5 +332,5 @@ getgenv().ConfigV4 = {
     }
 }
 
-getgenv().Key = "37661ebfde6d6d62fd51ada4"
+getgenv().Key = "4c6edae4bf98f30b3cc6c448"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/refs/heads/main/NewV4Config.lua"))()
