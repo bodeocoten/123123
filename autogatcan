@@ -315,7 +315,7 @@ getgenv().ConfigV4 = {
     },
 
     ["Method Kick"] = {
-        ["End Moon"] = true,
+        ["End Moon"] = false,
     },
 
     ["Auto Join"] = false,
