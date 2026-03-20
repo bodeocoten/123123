@@ -26,19 +26,22 @@ getgenv().ConfigV4 = {
     },
 
     ["Account Help"] = {
-        "BradyLang6806",
-        "ClaireMaxwell603",
-        "FloralHampton91506",
-        "LeonardEsparza22737",
-        "JoelBrass90",
-        "LatashaRyan03744"
+    "JoelBrass90",
+    "LatashaRyan03744",
+    "LeonardEsparza22737",
+    "FloralHampton91506",
+    "GlenParrish6682",
+    "RobinRogers6257",
+    "ClaireMaxwell603",
+    "PriscillaSpencer751",
+    "BradyLang6806"
     },
 
     ["Method Kick"] = {
         ["End Moon"] = true,
     },
 
-    ["Auto Join"] = false,
+    ["Auto Join"] = true,
 
     ["Auto Change Race"] = {
         ["Enabled"] = false,
